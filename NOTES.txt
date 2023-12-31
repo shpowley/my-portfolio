@@ -1,0 +1,31 @@
+ADJUST FONTS, ETC. USING CSS "clamp()" FUNCTION
+
+  https://developer.mozilla.org/en-US/docs/Web/CSS/clamp
+  clamp(min, val, max)
+
+  ALSO, min(), max()
+
+  see this question: https://www.reddit.com/r/webdev/comments/18st6ye/is_it_bad_practice_to_use_vw_as_font_size/
+
+
+
+
+REFER BACK TO THESE WEB PAGES FOR IDEAS WHEN EXPANDING THIS PROJECT
+
+  HOME PAGE EXAMPLE
+
+    https://andreaslagerkvist.com/ (fun and good 3d presentation)
+    https://ryo-portfolio1115.netlify.app/ (good layout)
+
+
+  DETAILS PAGE EXAMPLE
+
+    https://michalzalobny.com/case-study/superunion-com
+
+
+
+
+Force to open "Save As..." popup open at text link click for PDF in HTML
+
+  https://stackoverflow.com/a/21527905 (solution #3 - a bit more reliable by using target='_blank')
+  ex. <a href='./Resume 2024.pdf' download target='_blank'>Download</a>

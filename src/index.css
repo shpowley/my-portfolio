@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Open Sans", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-size: 1em;
+}
+
+html,
+body,
+#root {
+  /* overflow: hidden; */
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+:root {
+  color-scheme: light dark;
+  color: rgb(246 243 236);
+  background-color: #272843;
+  --scale: 1.0;
+  --section_margin: calc(3.0vw * var(--scale));
+  --title_margin: calc(0.8vw * var(--scale));
+  --div_main_width: 80%;
+  --div_main_vertical_padding: calc(7.0vw * var(--scale));
+  --h1_font_size: clamp(2.5rem, calc(3.5vw * var(--scale)), 4.0rem);
+  --h2_font_size: clamp(2.0rem, calc(2.0vw * var(--scale)), 2.5rem);
+  --h3_font_size: clamp(1.5rem, calc(1.4vw * var(--scale)), 2.0rem);
+  --li_margin_bottom: calc(0.8vw * var(--scale));
+  --li_font_size: clamp(1.0rem, calc(1.0vw * var(--scale)), 1.5rem);
+  --li_padding: calc(0.5vw * var(--scale));
+}
+
+a {
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+  color: rgb(173, 173, 217);
+}
+
+a:hover {
+  text-decoration-style: solid;
+  color: rgb(236, 157, 39);
+}
+
+li {
+  list-style: none;
+  font-size: var(--li_font_size);
+  background-color: #454673;
+  padding: var(--li_padding);
+}
+
+h1 {
+  font-size: var(--h1_font_size);
+}
+
+h2 {
+  font-size: var(--h2_font_size);
+}
+
+h3 {
+  font-size: var(--h3_font_size);
+}
+
+/* MAKES OPEN-IN-NEW-WINDOW ICONS WHITE */
+.icon_new_window {
+  filter: invert(1);
+  vertical-align: middle;
+}
+
+div#div_main {
+  position: absolute;
+  left: 50%;
+  padding: var(--div_main_vertical_padding) 0;
+  transform: translateX(-50%);
+  width: var(--div_main_width);
+}
+
+div#div_main > section:not(:first-child):not(:last-child) {
+  margin: var(--section_margin) 0;
+}
+
+section#section_title > h1,
+section > h2 {
+  margin-bottom: var(--title_margin);
+}
+
+section li {
+  margin-bottom: var(--li_margin_bottom);
+}
+
+/* RESPONSIVE STYLES */
+@media (max-width: 2048px) {
+  :root {
+    --scale: 1.1;
+  }
+}
+
+@media (max-width: 1700px) {
+  :root {
+    --scale: 1.2;
+  }
+}
+
+@media (max-width: 1300px) {
+  :root {
+    --scale: 1.35;
+  }
+}
+
+@media (max-width: 1000px) {
+  :root {
+    --scale: 1.4;
+  }
+}
+
+@media (max-width: 800px) {
+  :root {
+    --scale: 2.1;
+    --h1_font_size: 5.5vw;
+  }
+}
+
+@media (max-width: 650px) {
+  :root {
+    --scale: 3.5;
+
+    --div_main_width: 90%;
+    --div_main_vertical_padding: 10.0vw;
+    --h1_font_size: clamp(2.0rem, 6.5vw, 3.0rem);
+    --h2_font_size: clamp(1.5rem, 5.5vw, 2.0rem);
+    --h3_font_size: clamp(1.0rem, 4.0vw, 1.5rem);
+  }
+}
+
+@media (max-width: 480px) {
+  :root {
+    --scale: 4.0;
+
+    --div_main_width: 90%;
+    --div_main_vertical_padding: 10.0vw;
+    --h1_font_size: clamp(1.5rem, 6.5vw, 2.5rem);
+    --h2_font_size: clamp(1.0rem, 5.5vw, 2.0rem);
+    --h3_font_size: clamp(0.8rem, 4.0vw, 1.5rem);
+  }
+}
