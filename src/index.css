@@ -20,7 +20,7 @@ body,
 :root {
   color-scheme: light dark;
   color: rgb(246 243 236);
-  background-color: #272843;
+  background-color: #626ebc;
   --scale: 1.0;
   --section_margin: calc(3.0vw * var(--scale));
   --title_margin: calc(0.8vw * var(--scale));
@@ -48,7 +48,7 @@ a:hover {
 li {
   list-style: none;
   font-size: var(--li_font_size);
-  background-color: #454673;
+  background-color: #485294;
   padding: var(--li_padding);
 }
 

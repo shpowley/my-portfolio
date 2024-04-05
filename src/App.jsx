@@ -17,12 +17,13 @@ const App = () => {
 
       {/* RESUME LINK */}
       <section id='section_resume'>
-        <h2>Resume CV</h2>
+        <h2>Resume</h2>
         <ul>
           <li>
-            <a href='https://docs.google.com/document/d/1as58EPwOzYj0Ray5RWMFAHGrBsM-_03rP5kLVBpscEI' target='_blank'>
-              View on Google Drive <ImageNewWindow />
+            <a href='https://docs.google.com/document/d/1cIJ3FQ_ps6kdlD1Oetcf8yOyHzvNCqsyA4B5uB9oBjw' target='_blank'>
+              View on Google Drive
             </a>
+            &nbsp;<ImageNewWindow />
           </li>
           <li>
             <a href='./Resume 2024.pdf' download target='_blank'>Download PDF</a>
@@ -35,23 +36,74 @@ const App = () => {
         <h2>Projects</h2>
         <ul>
           <li>
-            <a href='https://www.pxlmesh.com/dev/pxlmesh-smartphone/' target='_blank'>
-              PXLMESH.COM MAIN LANDING PAGE <ImageNewWindow />
+            <a href='https://sketchfab.com/pxlmesh/models' target='_blank'>
+              3D MODELS (SKETCHFAB)
             </a>
+            &nbsp;<ImageNewWindow />
+            <br />
+            3d models created for use in several projects<br /><br />
+            Blender, Marmoset Toolbag<br />
+          </li>
+          <li>
+            <a href='https://play.google.com/store/apps/dev?id=7623722857728643207' target='_blank'>
+              PXLMESH LIVE WALLPAPER APPS (GOOGLE PLAY STORE)
+            </a>
+            &nbsp;<ImageNewWindow />
+            <br />
+            Several "meme" style touch-interactive live wallpapers<br /><br />
+            libGDX, Blender<br />
+          </li>
+          <li>
+            <a href='https://www.pxlmesh.com/dev/pxlmesh-smartphone/' target='_blank'>
+              PXLMESH.COM NEW MAIN LANDING PAGE
+            </a>
+            &nbsp;<ImageNewWindow />
             <br />
             2024 version | WORK IN PROGRESS<br /><br />
             Features an interactive smartphone 3D model playing video, demonstrating some Android live wallpaper apps<br />
             Click each app icon to see a different app demo<br /><br />
             React.js, React-Three-Fiber, Javascript, HTML, CSS<br />
+            DREI, Zustand<br />
+          </li>
+          <li>
+            <a href='https://www.pxlmesh.com/dev/isometric-room/' target='_blank'>
+              ISOMETRIC ROOM
+            </a>
+            &nbsp;<ImageNewWindow />
+            <br />
+            "Three.js Journey"<a href='https://threejs-journey.com' target='_blank'><ImageNewWindow /></a> course challenge #9 - "Isometric Room"<br /><br />
+            My second post-course project entry (practice project)<br />
+            An custom 3d modeled room featuring "baked" textures and animations<br />
+            Note that click-dragging the scene makes the wall/ceiling/floor that would otherwise block the view, fade out and disappear<br />
+            I wanted to add a lot more to this scene ..so this is now a post-challenge work-in-progress<br /><br />
+            React.js, React-Three-Fiber, Javascript, HTML, CSS, Blender 3d modeling<br />
+            Zustand, Anime.js (animation<br />
+          </li>
+          <li>
+            <a href='https://www.pxlmesh.com/dev/cardboard-fixed/' target='_blank'>
+              CARDBOARD WARRIOR (GAME)
+            </a>
+            &nbsp;<ImageNewWindow />
+            <br />
+            "Three.js Journey"<a href='https://threejs-journey.com' target='_blank'><ImageNewWindow /></a> course challenge #7 - "Procedural World"<br /><br />
+            My very first project after completing completing the course (practice project)<br />
+            A "simplified" dungeon explorer with random rooms, dice with physics, sound and animation<br />
+            This version implements post-challenge fixes<br /><br />
+            React.js, React-Three-Fiber, Javascript, HTML, CSS<br />
+            DREI, Zustand, Anime.js (animation), Rapier (physics)<br />
           </li>
           <li>
             <a href='https://www.pxlmesh.com/dev/three-js/physics/' target='_blank'>
-              <span>COINS FALLING PHYSICS SIMULATION</span> <ImageNewWindow />
+              <span>COINS FALLING PHYSICS SIMULATION</span>
             </a>
+            &nbsp;<ImageNewWindow />
             <br />
-            A very early portfolio page I created while learning Three.js<br /><br />
+            A very early practice page I created while mid-way through the "Three.js Journey"<a href='https://threejs-journey.com' target='_blank'><ImageNewWindow /></a> course<br /><br />
             Use the gear icon for settings and select from various types coins<br />
             Click on the screen to drop coins faster<br /><br />
+            NOTE:<br />
+            I was only part-way through this course so performance may be an issue on older hardware<br />
+            There is still room for improved performance such as simplified models and instanced meshes<br /><br />
             Three.js + cannon.js (physics), Javascript, HTML, CSS<br />
             3D models for crypto coins created in Blender<br />
           </li>
