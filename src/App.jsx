@@ -11,7 +11,7 @@ const App = () => {
       <section id='section_title'>
         <h1>Welcome to my Portfolio</h1>
         <h3>Hi! My name is SUNG POWLEY.</h3>
-        <h3>I'm a Web Developer and Tech Enthusiast.</h3>
+        <h3>I&#39;m a Web Developer and Tech Enthusiast.</h3>
         <h3>Join me on my journey as I explore interactive 3D on the web and mobile space.</h3>
       </section>
 
@@ -20,13 +20,13 @@ const App = () => {
         <h2>Resume</h2>
         <ul>
           <li>
-            <a href='https://docs.google.com/document/d/1cIJ3FQ_ps6kdlD1Oetcf8yOyHzvNCqsyA4B5uB9oBjw' target='_blank'>
+            <a href='https://docs.google.com/document/d/1cIJ3FQ_ps6kdlD1Oetcf8yOyHzvNCqsyA4B5uB9oBjw' target='_blank' rel='noreferrer'>
               View on Google Drive
             </a>
             &nbsp;<ImageNewWindow />
           </li>
           <li>
-            <a href='./Resume 2024.pdf' download target='_blank'>Download PDF</a>
+            <a href='./Resume 2024.pdf' download target='_blank' rel='noreferrer'>Download PDF</a>
           </li>
         </ul>
       </section>
@@ -36,7 +36,7 @@ const App = () => {
         <h2>Projects</h2>
         <ul>
           <li>
-            <a href='https://sketchfab.com/pxlmesh/models' target='_blank'>
+            <a href='https://sketchfab.com/pxlmesh/models' target='_blank' rel='noreferrer'>
               3D MODELS (SKETCHFAB)
             </a>
             &nbsp;<ImageNewWindow />
@@ -45,16 +45,16 @@ const App = () => {
             Blender, Marmoset Toolbag<br />
           </li>
           <li>
-            <a href='https://play.google.com/store/apps/dev?id=7623722857728643207' target='_blank'>
+            <a href='https://play.google.com/store/apps/dev?id=7623722857728643207' target='_blank' rel='noreferrer'>
               PXLMESH LIVE WALLPAPER APPS (GOOGLE PLAY STORE)
             </a>
             &nbsp;<ImageNewWindow />
             <br />
-            Several "meme" style touch-interactive live wallpapers<br /><br />
+            Several &#34;meme&#34; style touch-interactive live wallpapers<br /><br />
             libGDX, Blender<br />
           </li>
           <li>
-            <a href='https://www.pxlmesh.com/dev/pxlmesh-smartphone/' target='_blank'>
+            <a href='https://www.pxlmesh.com/dev/pxlmesh-smartphone/' target='_blank' rel='noreferrer'>
               PXLMESH.COM NEW MAIN LANDING PAGE
             </a>
             &nbsp;<ImageNewWindow />
@@ -66,39 +66,39 @@ const App = () => {
             DREI, Zustand<br />
           </li>
           <li>
-            <a href='https://www.pxlmesh.com/dev/isometric-room/' target='_blank'>
+            <a href='https://www.pxlmesh.com/dev/isometric-room/' target='_blank' rel='noreferrer'>
               ISOMETRIC ROOM
             </a>
             &nbsp;<ImageNewWindow />
             <br />
-            "Three.js Journey"<a href='https://threejs-journey.com' target='_blank'><ImageNewWindow /></a> course challenge #9 - "Isometric Room"<br /><br />
+            &#34;Three.js Journey&#34;<a href='https://threejs-journey.com' target='_blank' rel='noreferrer'><ImageNewWindow /></a> course challenge #9 - &#34;Isometric Room&#34;<br /><br />
             My second post-course project entry (practice project)<br />
-            An custom 3d modeled room featuring "baked" textures and animations<br />
+            An custom 3d modeled room featuring &#34;baked&#34; textures and animations<br />
             Note that click-dragging the scene makes the wall/ceiling/floor that would otherwise block the view, fade out and disappear<br />
             I wanted to add a lot more to this scene ..so this is now a post-challenge work-in-progress<br /><br />
             React.js, React-Three-Fiber, Javascript, HTML, CSS, Blender 3d modeling<br />
             Zustand, Anime.js (animation<br />
           </li>
           <li>
-            <a href='https://www.pxlmesh.com/dev/cardboard-fixed/' target='_blank'>
+            <a href='https://www.pxlmesh.com/dev/cardboard-fixed/' target='_blank' rel='noreferrer'>
               CARDBOARD WARRIOR (GAME)
             </a>
             &nbsp;<ImageNewWindow />
             <br />
-            "Three.js Journey"<a href='https://threejs-journey.com' target='_blank'><ImageNewWindow /></a> course challenge #7 - "Procedural World"<br /><br />
+            &#34;Three.js Journey&#34;<a href='https://threejs-journey.com' target='_blank' rel='noreferrer'><ImageNewWindow /></a> course challenge #7 - &#34;Procedural World&#34;<br /><br />
             My very first project after completing completing the course (practice project)<br />
-            A "simplified" dungeon explorer with random rooms, dice with physics, sound and animation<br />
+            A &#34;simplified&#34; dungeon explorer with random rooms, dice with physics, sound and animation<br />
             This version implements post-challenge fixes<br /><br />
             React.js, React-Three-Fiber, Javascript, HTML, CSS<br />
             DREI, Zustand, Anime.js (animation), Rapier (physics)<br />
           </li>
           <li>
-            <a href='https://www.pxlmesh.com/dev/three-js/physics/' target='_blank'>
+            <a href='https://www.pxlmesh.com/dev/three-js/physics/' target='_blank' rel='noreferrer'>
               <span>COINS FALLING PHYSICS SIMULATION</span>
             </a>
             &nbsp;<ImageNewWindow />
             <br />
-            A very early practice page I created while mid-way through the "Three.js Journey"<a href='https://threejs-journey.com' target='_blank'><ImageNewWindow /></a> course<br /><br />
+            A very early practice page I created while mid-way through the &#34;Three.js Journey&#34;<a href='https://threejs-journey.com' target='_blank' rel='noreferrer'><ImageNewWindow /></a> course<br /><br />
             Use the gear icon for settings and select from various types coins<br />
             Click on the screen to drop coins faster<br /><br />
             NOTE:<br />
