@@ -11,8 +11,8 @@ const App = () => {
       <section id='section_title'>
         <h1>Welcome to my Portfolio</h1>
         <h3>Hi! My name is SUNG POWLEY.</h3>
-        <h3>I&#39;m a Web Developer and Tech Enthusiast.</h3>
-        <h3>Join me on my journey as I explore interactive 3D on the web and mobile space.</h3>
+        <h3>I&#39;m a Web Developer and Tech Hopbyist.</h3>
+        <h3>Experimenting with interactive 3D on web, mixed-reality AR/VR on the open-web and mobile.</h3>
       </section>
 
       {/* RESUME LINK */}
