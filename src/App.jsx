@@ -26,7 +26,7 @@ const App = () => {
             &nbsp;<ImageNewWindow />
           </li>
           <li>
-            <a href='./Resume 2024.pdf' download target='_blank' rel='noreferrer'>Download PDF</a>
+            <a href='./resume.pdf' download target='_blank' rel='noreferrer'>Download PDF</a>
           </li>
         </ul>
       </section>
@@ -50,7 +50,7 @@ const App = () => {
             </a>
             &nbsp;<ImageNewWindow />
             <br />
-            Interactive live wallpapers for Android mobile devices (soon to be retired)<br /><br />
+            Interactive live wallpapers for Android mobile devices (soon to be removed)<br /><br />
             libGDX, Blender<br />
           </li>
           <li>
